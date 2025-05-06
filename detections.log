@@ -1,0 +1,85 @@
+2025-04-26 16:28:33,203 - -- BEGIN Twilio API Request --
+2025-04-26 16:28:33,205 - POST Request: https://api.twilio.com/2010-04-01/Accounts/ACbb50fb5313c67c2873bf2ad59b682175/Messages.json
+2025-04-26 16:28:33,205 - Headers:
+2025-04-26 16:28:33,205 - Content-Type : application/x-www-form-urlencoded
+2025-04-26 16:28:33,205 - Accept : application/json
+2025-04-26 16:28:33,205 - User-Agent : twilio-python/9.5.2 (Windows AMD64) Python/3.11.9
+2025-04-26 16:28:33,205 - X-Twilio-Client : python-9.5.2
+2025-04-26 16:28:33,205 - Accept-Charset : utf-8
+2025-04-26 16:28:33,205 - -- END Twilio API Request --
+2025-04-26 16:28:33,891 - Response Status Code: 201
+2025-04-26 16:28:33,891 - Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '843', 'Connection': 'keep-alive', 'Date': 'Sat, 26 Apr 2025 19:29:03 GMT', 'X-Powered-By': 'AT-5000', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ28d0fb62dee2404d5adcf78f63eadad5', 'Twilio-Request-Duration': '0.135', 'X-Home-Region': 'us1', 'X-Api-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, Idempotency-Key, X-Pre-Auth-Context, X-Target-Region', 'Access-Control-Allow-Methods': 'GET, POST, PATCH, PUT, DELETE, OPTIONS', 'Access-Control-Expose-Headers': 'ETag, Twilio-Request-Id', 'Access-Control-Allow-Credentials': 'true', 'X-Shenanigans': 'none', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 177c91363a48715973d6b46b02b578e8.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'GRU3-P4', 'X-Amz-Cf-Id': 'hXhWsVVuempHp4oipAvZdGMjgQx51Mt8R_t43Xd62ilzs0gYDxtNNw=='}
+2025-04-26 16:28:33,891 - SMS enviado: NO-Mask detectado.
+2025-04-26 16:28:35,129 - Alerta NO-Mask detectado, mas SMS não enviado (anti-spam).
+2025-04-26 16:28:38,945 - Alerta NO-Hardhat detectado, mas SMS não enviado (anti-spam).
+2025-04-26 16:28:38,945 - Alerta NO-Hardhat detectado, mas SMS não enviado (anti-spam).
+2025-04-26 16:28:39,384 - Alerta NO-Hardhat detectado, mas SMS não enviado (anti-spam).
+2025-04-26 16:28:39,384 - Alerta NO-Hardhat detectado, mas SMS não enviado (anti-spam).
+2025-04-26 16:28:40,209 - Alerta NO-Hardhat detectado, mas SMS não enviado (anti-spam).
+2025-04-26 16:28:41,029 - Alerta NO-Hardhat detectado, mas SMS não enviado (anti-spam).
+2025-04-26 16:28:41,815 - Alerta NO-Hardhat detectado, mas SMS não enviado (anti-spam).
+2025-04-26 16:31:11,113 - -- BEGIN Twilio API Request --
+2025-04-26 16:31:11,113 - POST Request: https://api.twilio.com/2010-04-01/Accounts/ACbb50fb5313c67c2873bf2ad59b682175/Messages.json
+2025-04-26 16:31:11,113 - Headers:
+2025-04-26 16:31:11,113 - Content-Type : application/x-www-form-urlencoded
+2025-04-26 16:31:11,113 - Accept : application/json
+2025-04-26 16:31:11,113 - User-Agent : twilio-python/9.5.2 (Windows AMD64) Python/3.11.9
+2025-04-26 16:31:11,113 - X-Twilio-Client : python-9.5.2
+2025-04-26 16:31:11,113 - Accept-Charset : utf-8
+2025-04-26 16:31:11,113 - -- END Twilio API Request --
+2025-04-26 16:31:11,672 - Response Status Code: 201
+2025-04-26 16:31:11,672 - Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '843', 'Connection': 'keep-alive', 'Date': 'Sat, 26 Apr 2025 19:31:40 GMT', 'X-Powered-By': 'AT-5000', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQc175d13c85de438bab6f85a8e089ab31', 'Twilio-Request-Duration': '0.136', 'X-Home-Region': 'us1', 'X-Api-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, Idempotency-Key, X-Pre-Auth-Context, X-Target-Region', 'Access-Control-Allow-Methods': 'GET, POST, PATCH, PUT, DELETE, OPTIONS', 'Access-Control-Expose-Headers': 'ETag, Twilio-Request-Id', 'Access-Control-Allow-Credentials': 'true', 'X-Shenanigans': 'none', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 7bd31ec78c4ccc19a77f1957aadbeefc.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'GRU3-P4', 'X-Amz-Cf-Id': '_-AIp_PTLScMQIs0pmw6r5_FB7wbP0ploi95jNjFwxf_dvqOF0u5XA=='}
+2025-04-26 16:31:11,673 - SMS enviado: NO-Mask detectado.
+2025-04-26 16:31:13,311 - Alerta NO-Mask detectado, mas SMS não enviado (anti-spam).
+2025-04-26 16:31:17,656 - Alerta NO-Hardhat detectado, mas SMS não enviado (anti-spam).
+2025-04-26 16:31:17,656 - Alerta NO-Hardhat detectado, mas SMS não enviado (anti-spam).
+2025-04-26 16:31:18,221 - Alerta NO-Hardhat detectado, mas SMS não enviado (anti-spam).
+2025-04-26 16:31:18,221 - Alerta NO-Hardhat detectado, mas SMS não enviado (anti-spam).
+2025-04-26 16:31:19,297 - Alerta NO-Hardhat detectado, mas SMS não enviado (anti-spam).
+2025-04-26 16:31:20,363 - Alerta NO-Hardhat detectado, mas SMS não enviado (anti-spam).
+2025-04-26 16:31:21,424 - Alerta NO-Hardhat detectado, mas SMS não enviado (anti-spam).
+2025-04-26 16:33:07,301 - -- BEGIN Twilio API Request --
+2025-04-26 16:33:07,301 - POST Request: https://api.twilio.com/2010-04-01/Accounts/ACbb50fb5313c67c2873bf2ad59b682175/Messages.json
+2025-04-26 16:33:07,301 - Headers:
+2025-04-26 16:33:07,301 - Content-Type : application/x-www-form-urlencoded
+2025-04-26 16:33:07,301 - Accept : application/json
+2025-04-26 16:33:07,302 - User-Agent : twilio-python/9.5.2 (Windows AMD64) Python/3.11.9
+2025-04-26 16:33:07,302 - X-Twilio-Client : python-9.5.2
+2025-04-26 16:33:07,302 - Accept-Charset : utf-8
+2025-04-26 16:33:07,302 - -- END Twilio API Request --
+2025-04-26 16:33:07,886 - Response Status Code: 201
+2025-04-26 16:33:07,886 - Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '843', 'Connection': 'keep-alive', 'Date': 'Sat, 26 Apr 2025 19:33:37 GMT', 'X-Powered-By': 'AT-5000', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ3ce583cfab79b9b59671980b1344a790', 'Twilio-Request-Duration': '0.129', 'X-Home-Region': 'us1', 'X-Api-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, Idempotency-Key, X-Pre-Auth-Context, X-Target-Region', 'Access-Control-Allow-Methods': 'GET, POST, PATCH, PUT, DELETE, OPTIONS', 'Access-Control-Expose-Headers': 'ETag, Twilio-Request-Id', 'Access-Control-Allow-Credentials': 'true', 'X-Shenanigans': 'none', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 1cade90c506e3a5b44b4196f2bc2fb5c.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'GRU3-P4', 'X-Amz-Cf-Id': '_4nsEhRhB15oSHFkEs1QWi46uZE8ajrAKiEPYiEJYTBbyMlcpQuOkQ=='}
+2025-04-26 16:33:07,886 - SMS enviado: NO-Mask detectado.
+2025-04-26 16:33:15,026 - Alerta NO-Mask detectado, mas SMS não enviado (anti-spam).
+2025-04-30 14:18:27,132 - -- BEGIN Twilio API Request --
+2025-04-30 14:18:27,132 - POST Request: https://api.twilio.com/2010-04-01/Accounts/ACbb50fb5313c67c2873bf2ad59b682175/Messages.json
+2025-04-30 14:18:27,132 - Headers:
+2025-04-30 14:18:27,138 - Content-Type : application/x-www-form-urlencoded
+2025-04-30 14:18:27,138 - Accept : application/json
+2025-04-30 14:18:27,138 - User-Agent : twilio-python/9.5.2 (Windows AMD64) Python/3.11.9
+2025-04-30 14:18:27,138 - X-Twilio-Client : python-9.5.2
+2025-04-30 14:18:27,138 - Accept-Charset : utf-8
+2025-04-30 14:18:27,138 - -- END Twilio API Request --
+2025-04-30 14:18:27,516 - Response Status Code: 201
+2025-04-30 14:18:27,516 - Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '843', 'Connection': 'keep-alive', 'Date': 'Wed, 30 Apr 2025 17:18:56 GMT', 'X-Powered-By': 'AT-5000', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQf1554f5a618af3096452def16c51c385', 'Twilio-Request-Duration': '0.157', 'X-Home-Region': 'us1', 'X-Api-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, Idempotency-Key, X-Pre-Auth-Context, X-Target-Region', 'Access-Control-Allow-Methods': 'GET, POST, PATCH, PUT, DELETE, OPTIONS', 'Access-Control-Expose-Headers': 'ETag, Twilio-Request-Id', 'Access-Control-Allow-Credentials': 'true', 'X-Shenanigans': 'none', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 1ca987d140ec07a0ce579c056163edaa.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'GRU3-P4', 'X-Amz-Cf-Id': 'ZezJxBdHgXQSbbtXwdYvEDxUXon426UoqyosymnBbscj5yUzraoieg=='}
+2025-04-30 14:18:27,518 - SMS enviado: NO-Mask detectado.
+2025-04-30 14:18:29,149 - Alerta NO-Mask detectado, mas SMS não enviado (anti-spam).
+2025-04-30 14:18:34,434 - Alerta NO-Hardhat detectado, mas SMS não enviado (anti-spam).
+2025-04-30 14:18:34,434 - Alerta NO-Hardhat detectado, mas SMS não enviado (anti-spam).
+2025-04-30 14:18:34,875 - Alerta NO-Hardhat detectado, mas SMS não enviado (anti-spam).
+2025-04-30 14:18:34,875 - Alerta NO-Hardhat detectado, mas SMS não enviado (anti-spam).
+2025-04-30 14:18:35,887 - Alerta NO-Hardhat detectado, mas SMS não enviado (anti-spam).
+2025-04-30 14:18:39,501 - Alerta NO-Hardhat detectado, mas SMS não enviado (anti-spam).
+2025-04-30 14:18:40,508 - Alerta NO-Hardhat detectado, mas SMS não enviado (anti-spam).
+2025-04-30 14:26:37,558 - -- BEGIN Twilio API Request --
+2025-04-30 14:26:37,558 - POST Request: https://api.twilio.com/2010-04-01/Accounts/ACbb50fb5313c67c2873bf2ad59b682175/Messages.json
+2025-04-30 14:26:37,558 - Headers:
+2025-04-30 14:26:37,558 - Content-Type : application/x-www-form-urlencoded
+2025-04-30 14:26:37,558 - Accept : application/json
+2025-04-30 14:26:37,558 - User-Agent : twilio-python/9.5.2 (Windows AMD64) Python/3.11.9
+2025-04-30 14:26:37,558 - X-Twilio-Client : python-9.5.2
+2025-04-30 14:26:37,558 - Accept-Charset : utf-8
+2025-04-30 14:26:37,558 - -- END Twilio API Request --
+2025-04-30 14:26:37,969 - Response Status Code: 201
+2025-04-30 14:26:37,969 - Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '846', 'Connection': 'keep-alive', 'Date': 'Wed, 30 Apr 2025 17:27:07 GMT', 'X-Powered-By': 'AT-5000', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ4ba8f3d91273e79365824fc4e71ac9e6', 'Twilio-Request-Duration': '0.143', 'X-Home-Region': 'us1', 'X-Api-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, Idempotency-Key, X-Pre-Auth-Context, X-Target-Region', 'Access-Control-Allow-Methods': 'GET, POST, PATCH, PUT, DELETE, OPTIONS', 'Access-Control-Expose-Headers': 'ETag, Twilio-Request-Id', 'Access-Control-Allow-Credentials': 'true', 'X-Shenanigans': 'none', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 1f71c63658c4f74faed3133e50a0708a.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'GRU3-P4', 'X-Amz-Cf-Id': 'eyaSnxfMCuiX37bTXiDi3RPWDXCxzg9GyT27OKLonngvl-kWMNuQWg=='}
+2025-04-30 14:26:37,970 - SMS enviado: NO-Hardhat detectado.
