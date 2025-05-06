@@ -83,3 +83,665 @@
 2025-04-30 14:26:37,969 - Response Status Code: 201
 2025-04-30 14:26:37,969 - Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '846', 'Connection': 'keep-alive', 'Date': 'Wed, 30 Apr 2025 17:27:07 GMT', 'X-Powered-By': 'AT-5000', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ4ba8f3d91273e79365824fc4e71ac9e6', 'Twilio-Request-Duration': '0.143', 'X-Home-Region': 'us1', 'X-Api-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, Idempotency-Key, X-Pre-Auth-Context, X-Target-Region', 'Access-Control-Allow-Methods': 'GET, POST, PATCH, PUT, DELETE, OPTIONS', 'Access-Control-Expose-Headers': 'ETag, Twilio-Request-Id', 'Access-Control-Allow-Credentials': 'true', 'X-Shenanigans': 'none', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 1f71c63658c4f74faed3133e50a0708a.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'GRU3-P4', 'X-Amz-Cf-Id': 'eyaSnxfMCuiX37bTXiDi3RPWDXCxzg9GyT27OKLonngvl-kWMNuQWg=='}
 2025-04-30 14:26:37,970 - SMS enviado: NO-Hardhat detectado.
+2025-05-05 23:28:03,901 - -- BEGIN Twilio API Request --
+2025-05-05 23:28:03,901 - POST Request: https://api.twilio.com/2010-04-01/Accounts/ACbb50fb5313c67c2873bf2ad59b682175/Messages.json
+2025-05-05 23:28:03,901 - Headers:
+2025-05-05 23:28:03,901 - Content-Type : application/x-www-form-urlencoded
+2025-05-05 23:28:03,901 - Accept : application/json
+2025-05-05 23:28:03,901 - User-Agent : twilio-python/9.5.2 (Windows AMD64) Python/3.11.9
+2025-05-05 23:28:03,901 - X-Twilio-Client : python-9.5.2
+2025-05-05 23:28:03,901 - Accept-Charset : utf-8
+2025-05-05 23:28:03,901 - -- END Twilio API Request --
+2025-05-05 23:28:04,573 - Response Status Code: 201
+2025-05-05 23:28:04,573 - Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '843', 'Connection': 'keep-alive', 'Date': 'Tue, 06 May 2025 02:28:04 GMT', 'X-Powered-By': 'AT-5000', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ26b154181d2ba15081bed1d58461fa04', 'Twilio-Request-Duration': '0.160', 'X-Home-Region': 'us1', 'X-Api-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Shenanigans': 'none', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 04d6bb773b5e7e57636695458b3a4bd8.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'GRU3-P4', 'X-Amz-Cf-Id': 'Ubu627hG8I7fhgNv71FnDp5V-C987kfSlpQuEkDu7Ll7wwfb8zOqgw==', 'Vary': 'Origin'}
+2025-05-05 23:28:04,574 - SMS enviado: NO-Mask detectado.
+2025-05-05 23:28:04,574 - Alerta NO-Hardhat detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:28:04,574 - Alerta NO-Hardhat detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:28:04,574 - Alerta NO-Mask detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:31:40,332 - -- BEGIN Twilio API Request --
+2025-05-05 23:31:40,333 - POST Request: https://api.twilio.com/2010-04-01/Accounts/ACbb50fb5313c67c2873bf2ad59b682175/Messages.json
+2025-05-05 23:31:40,333 - Headers:
+2025-05-05 23:31:40,333 - Content-Type : application/x-www-form-urlencoded
+2025-05-05 23:31:40,333 - Accept : application/json
+2025-05-05 23:31:40,333 - User-Agent : twilio-python/9.5.2 (Windows AMD64) Python/3.11.9
+2025-05-05 23:31:40,333 - X-Twilio-Client : python-9.5.2
+2025-05-05 23:31:40,333 - Accept-Charset : utf-8
+2025-05-05 23:31:40,333 - -- END Twilio API Request --
+2025-05-05 23:31:40,936 - Response Status Code: 201
+2025-05-05 23:31:40,937 - Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '850', 'Connection': 'keep-alive', 'Date': 'Tue, 06 May 2025 02:31:41 GMT', 'X-Powered-By': 'AT-5000', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ071b86847dac6c569ff8e4f9859df999', 'Twilio-Request-Duration': '0.126', 'X-Home-Region': 'us1', 'X-Api-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Shenanigans': 'none', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 670127d831d6fe067a1d0e61c13cef54.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'GRU3-P4', 'X-Amz-Cf-Id': 'O_X0heYcJmJk8bV5KIuzbE_x4ncry4wkwoXvXuf24fqh7Q5lTom8jQ==', 'Vary': 'Origin'}
+2025-05-05 23:31:40,937 - SMS enviado: NO-Safety Vest detectado.
+2025-05-05 23:34:18,322 - -- BEGIN Twilio API Request --
+2025-05-05 23:34:18,322 - POST Request: https://api.twilio.com/2010-04-01/Accounts/ACbb50fb5313c67c2873bf2ad59b682175/Messages.json
+2025-05-05 23:34:18,323 - Headers:
+2025-05-05 23:34:18,323 - Content-Type : application/x-www-form-urlencoded
+2025-05-05 23:34:18,323 - Accept : application/json
+2025-05-05 23:34:18,323 - User-Agent : twilio-python/9.5.2 (Windows AMD64) Python/3.11.9
+2025-05-05 23:34:18,323 - X-Twilio-Client : python-9.5.2
+2025-05-05 23:34:18,323 - Accept-Charset : utf-8
+2025-05-05 23:34:18,323 - -- END Twilio API Request --
+2025-05-05 23:34:18,962 - Response Status Code: 201
+2025-05-05 23:34:18,962 - Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '850', 'Connection': 'keep-alive', 'Date': 'Tue, 06 May 2025 02:34:19 GMT', 'X-Powered-By': 'AT-5000', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ02f5da3be1f5efca7865f13feff85361', 'Twilio-Request-Duration': '0.171', 'X-Home-Region': 'us1', 'X-Api-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Shenanigans': 'none', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 1f71c63658c4f74faed3133e50a0708a.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'GRU3-P4', 'X-Amz-Cf-Id': 'uGkQcJLJi5tcIis2-KhJgsGt0Xym-N6amZNXMAAVTZL6Y2XK1LFEvw==', 'Vary': 'Origin'}
+2025-05-05 23:34:18,963 - SMS enviado: NO-Safety Vest detectado.
+2025-05-05 23:34:19,804 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:34:20,371 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:34:22,305 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:34:23,108 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:34:23,108 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:34:23,680 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:34:23,680 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:34:23,680 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:34:24,264 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:34:24,264 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:39:08,407 - -- BEGIN Twilio API Request --
+2025-05-05 23:39:08,408 - POST Request: https://api.twilio.com/2010-04-01/Accounts/ACbb50fb5313c67c2873bf2ad59b682175/Messages.json
+2025-05-05 23:39:08,408 - Headers:
+2025-05-05 23:39:08,408 - Content-Type : application/x-www-form-urlencoded
+2025-05-05 23:39:08,408 - Accept : application/json
+2025-05-05 23:39:08,408 - User-Agent : twilio-python/9.5.2 (Windows AMD64) Python/3.11.9
+2025-05-05 23:39:08,408 - X-Twilio-Client : python-9.5.2
+2025-05-05 23:39:08,408 - Accept-Charset : utf-8
+2025-05-05 23:39:08,408 - -- END Twilio API Request --
+2025-05-05 23:39:08,891 - Response Status Code: 201
+2025-05-05 23:39:08,891 - Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '842', 'Connection': 'keep-alive', 'Date': 'Tue, 06 May 2025 02:39:09 GMT', 'X-Powered-By': 'AT-5000', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ137d12ef2387dec5e8ea06f079b731e6', 'Twilio-Request-Duration': '0.149', 'X-Home-Region': 'us1', 'X-Api-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Shenanigans': 'none', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 5bfc01a743251c97602fd0fa441f1900.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'GRU3-P4', 'X-Amz-Cf-Id': 'FgsZMdpF4x8lyQE_7miIWN35cCVZCBXSzRk-2g_1OBHawj4utYPsVA==', 'Vary': 'Origin'}
+2025-05-05 23:39:08,891 - SMS enviado: Person detectado.
+2025-05-05 23:39:08,891 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:39:08,891 - Alerta Hardhat detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:39:08,892 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:39:09,694 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:39:09,694 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:39:09,694 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:39:09,694 - Alerta Hardhat detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:39:09,694 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:39:10,518 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:39:10,518 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:39:10,518 - Alerta Hardhat detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:39:10,518 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:39:10,518 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:39:11,094 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:39:11,094 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:39:11,094 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:39:11,094 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:39:11,094 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:39:11,095 - Alerta Hardhat detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:39:11,660 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:39:11,660 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:39:11,660 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:39:11,660 - Alerta Hardhat detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:47:01,853 - -- BEGIN Twilio API Request --
+2025-05-05 23:47:01,853 - POST Request: https://api.twilio.com/2010-04-01/Accounts/ACbb50fb5313c67c2873bf2ad59b682175/Messages.json
+2025-05-05 23:47:01,854 - Headers:
+2025-05-05 23:47:01,854 - Content-Type : application/x-www-form-urlencoded
+2025-05-05 23:47:01,854 - Accept : application/json
+2025-05-05 23:47:01,854 - User-Agent : twilio-python/9.5.2 (Windows AMD64) Python/3.11.9
+2025-05-05 23:47:01,854 - X-Twilio-Client : python-9.5.2
+2025-05-05 23:47:01,854 - Accept-Charset : utf-8
+2025-05-05 23:47:01,854 - -- END Twilio API Request --
+2025-05-05 23:47:02,695 - Response Status Code: 201
+2025-05-05 23:47:02,695 - Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '842', 'Connection': 'keep-alive', 'Date': 'Tue, 06 May 2025 02:47:02 GMT', 'X-Powered-By': 'AT-5000', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ062d1f864c8ea56da858d4a33839bec3', 'Twilio-Request-Duration': '0.129', 'X-Home-Region': 'us1', 'X-Api-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Shenanigans': 'none', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 6314ddd518f7b913ee48824c6307422e.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'GRU3-P4', 'X-Amz-Cf-Id': 'bBbBJQW4XoVIqvJptP52SmpVooJ8MfaUVWhFRZQiuMuStcOncC6tCg==', 'Vary': 'Origin'}
+2025-05-05 23:47:02,695 - SMS enviado: Person detectado.
+2025-05-05 23:47:02,696 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:47:02,696 - Alerta Hardhat detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:47:02,696 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:47:03,527 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:47:03,527 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:47:03,527 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:47:03,527 - Alerta Hardhat detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:47:03,527 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:47:04,336 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:47:04,336 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:47:04,336 - Alerta Hardhat detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:47:04,336 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:47:04,336 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:47:04,893 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:47:04,894 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:47:04,894 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:47:04,894 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:47:04,894 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:47:04,894 - Alerta Hardhat detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:47:05,434 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:47:05,434 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:47:05,434 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:47:05,434 - Alerta Hardhat detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:47:06,093 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:47:06,093 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:47:06,093 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:47:06,093 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:47:06,094 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:47:06,094 - Alerta Hardhat detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:47:06,785 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:47:06,785 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:47:06,785 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:47:06,785 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:47:06,785 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:47:06,785 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:47:06,786 - Alerta Hardhat detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:47:06,786 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:47:07,374 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:47:07,374 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:47:07,374 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:47:07,374 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:47:07,374 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:47:07,374 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:47:07,374 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:47:07,374 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:47:07,375 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:47:07,936 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:47:07,936 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:47:07,936 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:47:07,937 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:47:07,937 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:47:07,937 - Alerta Hardhat detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:47:07,937 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:47:07,937 - Alerta Hardhat detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:47:07,937 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:47:07,937 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:47:07,937 - Alerta Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:47:08,512 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:47:08,512 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:47:08,512 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:47:08,512 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:47:08,512 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:47:08,513 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:47:08,513 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:47:08,513 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:47:08,513 - Alerta Hardhat detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:47:08,513 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:47:09,087 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:47:09,087 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:47:09,087 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:47:09,087 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:47:09,087 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:47:09,087 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:47:09,087 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:47:09,618 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:47:09,618 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:47:09,619 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:47:09,619 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:47:09,619 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:47:09,619 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:47:09,619 - Alerta Hardhat detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:47:09,619 - Alerta Hardhat detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:47:10,191 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:47:10,191 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:47:10,191 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:47:10,192 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:47:10,192 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:47:10,192 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:47:10,192 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:47:10,192 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:47:10,192 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:47:10,192 - Alerta Hardhat detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:47:10,192 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:47:10,192 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:47:10,192 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:47:10,192 - Alerta Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:47:10,192 - Alerta Hardhat detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:47:10,192 - Alerta Safety Cone detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:52:55,963 - -- BEGIN Twilio API Request --
+2025-05-05 23:52:55,963 - POST Request: https://api.twilio.com/2010-04-01/Accounts/ACbb50fb5313c67c2873bf2ad59b682175/Messages.json
+2025-05-05 23:52:55,963 - Headers:
+2025-05-05 23:52:55,963 - Content-Type : application/x-www-form-urlencoded
+2025-05-05 23:52:55,963 - Accept : application/json
+2025-05-05 23:52:55,963 - User-Agent : twilio-python/9.5.2 (Windows AMD64) Python/3.11.9
+2025-05-05 23:52:55,963 - X-Twilio-Client : python-9.5.2
+2025-05-05 23:52:55,963 - Accept-Charset : utf-8
+2025-05-05 23:52:55,963 - -- END Twilio API Request --
+2025-05-05 23:52:56,440 - Response Status Code: 201
+2025-05-05 23:52:56,440 - Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '842', 'Connection': 'keep-alive', 'Date': 'Tue, 06 May 2025 02:52:56 GMT', 'X-Powered-By': 'AT-5000', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ18c7cf75f4946fc02c50e00c12729a13', 'Twilio-Request-Duration': '0.140', 'X-Home-Region': 'us1', 'X-Api-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Shenanigans': 'none', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 04d6bb773b5e7e57636695458b3a4bd8.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'GRU3-P4', 'X-Amz-Cf-Id': 'jHKJ0WW7kZ30QEbuh5_uDUBhhVZT42tE7jO8l3-E3Y2Y1m1WVS8a-w==', 'Vary': 'Origin'}
+2025-05-05 23:52:56,441 - SMS enviado: Person detectado.
+2025-05-05 23:52:56,441 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:52:56,441 - Alerta Hardhat detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:52:56,441 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:52:57,284 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:52:57,284 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:52:57,284 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:52:57,284 - Alerta Hardhat detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:52:57,284 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:52:57,859 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:52:57,859 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:52:57,859 - Alerta Hardhat detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:52:57,859 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:52:57,859 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:52:58,420 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:52:58,421 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:52:58,421 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:52:58,421 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:52:58,421 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:52:58,421 - Alerta Hardhat detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:52:58,988 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:52:58,989 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:52:58,989 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:52:58,989 - Alerta Hardhat detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:52:59,539 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:52:59,540 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:52:59,540 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:52:59,540 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:52:59,540 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:52:59,540 - Alerta Hardhat detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:00,104 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:00,105 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:00,105 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:00,105 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:00,105 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:00,105 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:00,105 - Alerta Hardhat detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:00,105 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:00,704 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:00,704 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:00,704 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:00,704 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:00,704 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:00,704 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:00,704 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:00,704 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:00,704 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:01,430 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:01,431 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:01,431 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:01,431 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:01,431 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:01,431 - Alerta Hardhat detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:01,431 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:01,431 - Alerta Hardhat detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:01,431 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:01,431 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:01,431 - Alerta Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:02,050 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:02,050 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:02,050 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:02,050 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:02,050 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:02,051 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:02,051 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:02,051 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:02,051 - Alerta Hardhat detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:02,051 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:02,640 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:02,640 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:02,640 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:02,640 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:02,640 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:02,640 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:02,641 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:03,201 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:03,201 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:03,202 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:03,202 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:03,202 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:03,202 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:03,202 - Alerta Hardhat detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:03,202 - Alerta Hardhat detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:03,767 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:03,769 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:03,769 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:03,769 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:03,769 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:03,769 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:03,769 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:03,769 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:03,769 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:03,769 - Alerta Hardhat detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:03,769 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:03,769 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:03,769 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:03,769 - Alerta Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:03,770 - Alerta Hardhat detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:03,770 - Alerta Safety Cone detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:04,314 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:04,314 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:04,315 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:04,315 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:04,315 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:04,315 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:04,315 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:04,315 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:04,316 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:04,316 - Alerta Hardhat detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:04,855 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:04,855 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:04,855 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:04,855 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:04,855 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:04,855 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:04,855 - Alerta Hardhat detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:04,856 - Alerta Safety Cone detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:05,383 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:05,383 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:05,383 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:05,383 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:05,384 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:05,384 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:05,384 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:05,384 - Alerta Hardhat detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:05,384 - Alerta Safety Cone detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:05,384 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:05,384 - Alerta Hardhat detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:05,384 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:05,384 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:05,948 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:05,949 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:05,949 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:05,949 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:05,949 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:05,949 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:05,949 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:05,949 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:05,949 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:05,949 - Alerta Hardhat detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:05,949 - Alerta Hardhat detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:05,949 - Alerta Safety Cone detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:06,478 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:06,479 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:06,479 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:06,479 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:06,479 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:06,479 - Alerta Hardhat detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:06,479 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:06,479 - Alerta Hardhat detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:06,479 - Alerta Safety Cone detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:07,033 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:07,033 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:07,033 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:07,033 - Alerta Hardhat detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:07,033 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:07,033 - Alerta Hardhat detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:07,033 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:07,653 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:07,653 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:07,653 - Alerta Hardhat detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:07,653 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:07,653 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:07,653 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:08,252 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:08,252 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:08,252 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:08,252 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:08,252 - Alerta Hardhat detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:08,252 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:08,252 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:08,252 - Alerta Hardhat detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:08,828 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:08,828 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:08,829 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:08,829 - Alerta Hardhat detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:08,829 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:08,829 - Alerta Hardhat detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:09,375 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:09,375 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:09,375 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:09,376 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:09,376 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:09,376 - Alerta Hardhat detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:09,376 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:09,932 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:09,932 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:09,932 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:09,933 - Alerta Hardhat detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:09,933 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:10,522 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:10,522 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:10,522 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:10,522 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:10,522 - Alerta Hardhat detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:10,522 - Alerta Hardhat detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:10,522 - Alerta Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:10,522 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:10,522 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:11,112 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:11,112 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:11,112 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:11,112 - Alerta Hardhat detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:11,112 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:11,112 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:11,112 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:11,113 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:11,113 - Alerta Hardhat detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:11,113 - Alerta Safety Cone detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:11,913 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:11,913 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:11,913 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:11,913 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:11,913 - Alerta Hardhat detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:11,913 - Alerta Hardhat detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:53:11,913 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:22,725 - -- BEGIN Twilio API Request --
+2025-05-05 23:57:22,725 - POST Request: https://api.twilio.com/2010-04-01/Accounts/ACbb50fb5313c67c2873bf2ad59b682175/Messages.json
+2025-05-05 23:57:22,725 - Headers:
+2025-05-05 23:57:22,725 - Content-Type : application/x-www-form-urlencoded
+2025-05-05 23:57:22,725 - Accept : application/json
+2025-05-05 23:57:22,725 - User-Agent : twilio-python/9.5.2 (Windows AMD64) Python/3.11.9
+2025-05-05 23:57:22,726 - X-Twilio-Client : python-9.5.2
+2025-05-05 23:57:22,726 - Accept-Charset : utf-8
+2025-05-05 23:57:22,726 - -- END Twilio API Request --
+2025-05-05 23:57:23,275 - Response Status Code: 201
+2025-05-05 23:57:23,276 - Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '842', 'Connection': 'keep-alive', 'Date': 'Tue, 06 May 2025 02:57:23 GMT', 'X-Powered-By': 'AT-5000', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQa7ec65aeacb86cfe8086fc22d0153a8a', 'Twilio-Request-Duration': '0.142', 'X-Home-Region': 'us1', 'X-Api-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Shenanigans': 'none', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 b0c4c3183ea0dd9a0f495a148c420656.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'GRU3-P4', 'X-Amz-Cf-Id': 'aBWbMcWuFsHynfUle1_G5N7I_s3uYvQ8fVJdjtA9AUbZSyvb_WCtkQ==', 'Vary': 'Origin'}
+2025-05-05 23:57:23,276 - SMS enviado: Person detectado.
+2025-05-05 23:57:23,277 - Alerta Hardhat detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:23,277 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:24,107 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:24,107 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:24,107 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:24,107 - Alerta Hardhat detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:24,756 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:24,756 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:24,756 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:24,757 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:24,757 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:24,757 - Alerta Hardhat detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:25,580 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:25,580 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:25,580 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:25,580 - Alerta Hardhat detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:25,580 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:25,581 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:25,581 - Alerta Hardhat detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:26,155 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:26,155 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:26,155 - Alerta Hardhat detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:26,778 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:26,778 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:26,779 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:26,779 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:26,779 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:26,779 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:26,779 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:26,779 - Alerta Hardhat detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:26,779 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:26,779 - Alerta machinery detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:27,507 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:27,507 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:27,507 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:27,508 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:27,508 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:27,508 - Alerta Hardhat detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:28,092 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:28,092 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:28,092 - Alerta Hardhat detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:28,092 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:28,093 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:28,093 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:28,093 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:28,093 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:28,093 - Alerta Hardhat detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:28,093 - Alerta Hardhat detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:28,093 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:28,093 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:28,093 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:28,689 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:28,690 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:28,690 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:28,690 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:28,690 - Alerta Hardhat detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:28,690 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:28,690 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:28,690 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:28,690 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:28,690 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:28,690 - Alerta Hardhat detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:28,690 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:29,271 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:29,271 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:29,271 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:29,272 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:29,272 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:29,272 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:29,272 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:29,272 - Alerta Hardhat detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:29,272 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:29,272 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:29,272 - Alerta Hardhat detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:29,272 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:29,272 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:29,833 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:29,833 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:29,833 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:29,833 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:29,833 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:29,833 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:29,834 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:29,834 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:29,834 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:29,834 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:29,834 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:30,411 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:30,411 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:30,412 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:30,412 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:30,412 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:30,412 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:30,412 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:30,412 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:30,413 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:30,413 - Alerta Hardhat detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:30,413 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:30,971 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:30,971 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:30,971 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:30,971 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:30,971 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:30,971 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:30,971 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:30,971 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:30,971 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:30,972 - Alerta Hardhat detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:30,972 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:30,972 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:30,972 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:30,972 - Alerta NO-Hardhat detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:31,533 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:31,533 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:31,533 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:31,533 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:31,534 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:31,534 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:31,534 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:31,534 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:31,534 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:31,534 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:31,534 - Alerta Hardhat detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:31,534 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:32,080 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:32,080 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:32,080 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:32,080 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:32,080 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:32,080 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:32,080 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:32,080 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:32,080 - Alerta Hardhat detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:32,080 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:32,080 - Alerta Hardhat detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:32,081 - Alerta Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:32,081 - Alerta Hardhat detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:32,622 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:32,622 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:32,622 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:32,622 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:32,622 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:32,622 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:32,622 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:32,622 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:32,623 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:32,623 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:32,623 - Alerta Hardhat detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:33,184 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:33,185 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:33,185 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:33,185 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:33,185 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:33,185 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:33,185 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:33,185 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:33,185 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:33,185 - Alerta Hardhat detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:33,185 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:33,185 - Alerta Hardhat detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:33,185 - Alerta Hardhat detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:33,826 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:33,827 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:33,827 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:33,827 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:33,827 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:33,827 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:33,827 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:33,827 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:33,827 - Alerta Hardhat detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:34,382 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:34,382 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:34,382 - Alerta Hardhat detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:34,382 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:34,382 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:34,383 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:34,960 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:34,960 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:34,960 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:34,960 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:34,960 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:34,960 - Alerta Hardhat detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:34,960 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:34,960 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:35,566 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:35,566 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:35,566 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:35,566 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:35,566 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:35,566 - Alerta Hardhat detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:35,566 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:36,214 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:36,214 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:36,214 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:36,214 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:36,214 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:36,214 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:36,214 - Alerta Hardhat detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:36,786 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:36,786 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:36,787 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:36,787 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:36,787 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:36,787 - Alerta Hardhat detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:36,787 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:37,351 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:37,352 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:37,352 - Alerta Hardhat detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:37,352 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:37,352 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:37,352 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:37,352 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:37,895 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:37,895 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:37,895 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:37,895 - Alerta Hardhat detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:37,895 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:37,895 - Alerta Hardhat detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:37,895 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:37,895 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:37,896 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:38,485 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:38,485 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:38,486 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:38,486 - Alerta Hardhat detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:38,486 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:38,486 - Alerta Person detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:38,486 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-05 23:57:38,486 - Alerta Hardhat detectado, mas SMS não enviado (anti-spam).

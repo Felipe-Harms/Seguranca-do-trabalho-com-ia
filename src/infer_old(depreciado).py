@@ -2,7 +2,7 @@ import cv2
 import os
 import logging
 from time import time
-from notifier import send_sms  # Importando a função de envio de SMS
+from utils.notifier import send_sms  # Importando a função de envio de SMS
 from ultralytics import YOLO
 
 # Configurações
