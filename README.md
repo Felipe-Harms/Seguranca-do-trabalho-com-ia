@@ -13,11 +13,12 @@ Este projeto usa visão computacional e IA para identificar EPIs e detectar risc
 - Roboflow
 - OpenCV
 - Twilio
+- FastAPI
 
 ## Como usar
 1. Instale dependências
 2. Baixe o modelo treinado (.pt)
-3. Rode `infer.py`
+3. Rode `main.py`
 
 ## Estrutura do Projeto
 ...
