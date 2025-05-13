@@ -18,7 +18,5 @@ Este projeto usa visão computacional e IA para identificar EPIs e detectar risc
 ## Como usar
 1. Instale dependências
 2. Baixe o modelo treinado (.pt)
-3. Rode `main.py`
-
-## Estrutura do Projeto
-...
+3. rode o uvicorn api:app --reload  na pasta onde está o api.py 
+4. Rode `main.py`
