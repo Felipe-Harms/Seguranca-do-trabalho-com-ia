@@ -2,9 +2,12 @@ import cv2
 import os
 import logging
 from time import time
+from datetime import datetime
+from requests.exceptions import RequestException
 from utils.notifier import send_sms  # Importando a função de envio de SMS
 from utils.video_tools import preprocess_frame  # Função de pré-processamento
 from utils.infer import run_inference, draw_boxes  # Função de inferência
+from utils.api_client import register_stream, send_alert
 from ultralytics import YOLO
 
 # Configurações
@@ -15,9 +18,21 @@ img_size = 2464         # Aumenta o tamanho da imagem para melhor qualidade
 conf_threshold = 0.60   # Confiança mínima para a detecção
 sms_interval = 30       # Intervalo entre o envio de SMS (em segundos)
 
+#adcionar stream(origem do video)
+
+try:
+    stream_info = register_stream(name="Câmera Principal", source=video_path)
+    stream_id = stream_info["id"]
+    print(f"Stream registrada com ID {stream_id}")
+except RequestException as e:
+    print("Erro ao registrar a stream na API:", e)
+    exit(1)
+
+
 # Definir as classes relevantes (EPIs + Person e Safety Vest)
 
 relevant_classes = ['Hardhat','Mask','NO-Hardhat','NO-Mask','NO-Safety Vest','Person','Safety Cone','Safety Vest','machinery','vehicle']
+missing_ppe = ['NO-Hardhat','NO-Mask','NO-Safety Vest']
 
 # Configuração de logs
 logging.basicConfig(filename="detections.log", level=logging.INFO, format="%(asctime)s - %(message)s")
@@ -68,9 +83,11 @@ while True:
             class_id = int(box.cls)
             class_name = model.names[class_id]
 
-            if class_name in relevant_classes:
+            if class_name in missing_ppe:
                 current_time = time()
                 if current_time - last_sms_time >= sms_interval:
+                    timestamp = datetime.now().isoformat()
+                    send_alert(stream_id, class_name, "safety_violation", timestamp)
                     send_sms(f"⚠️ Alerta: {class_name} detectado!")
                     last_sms_time = current_time  # Atualiza o tempo do último SMS
                     logging.info(f"SMS enviado: {class_name} detectado.")
