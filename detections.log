@@ -1162,3 +1162,121 @@
 2025-05-12 23:10:51,534 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
 2025-05-12 23:10:51,534 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
 2025-05-12 23:10:51,534 - Alerta NO-Hardhat detectado, mas SMS não enviado (anti-spam).
+2025-05-14 21:32:37,793 - -- BEGIN Twilio API Request --
+2025-05-14 21:32:37,793 - POST Request: https://api.twilio.com/2010-04-01/Accounts/ACbb50fb5313c67c2873bf2ad59b682175/Messages.json
+2025-05-14 21:32:37,793 - Headers:
+2025-05-14 21:32:37,793 - Content-Type : application/x-www-form-urlencoded
+2025-05-14 21:32:37,793 - Accept : application/json
+2025-05-14 21:32:37,793 - User-Agent : twilio-python/9.5.2 (Windows AMD64) Python/3.11.9
+2025-05-14 21:32:37,793 - X-Twilio-Client : python-9.5.2
+2025-05-14 21:32:37,793 - Accept-Charset : utf-8
+2025-05-14 21:32:37,795 - -- END Twilio API Request --
+2025-05-14 21:32:38,886 - Response Status Code: 201
+2025-05-14 21:32:38,886 - Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '850', 'Connection': 'keep-alive', 'Date': 'Thu, 15 May 2025 00:32:45 GMT', 'X-Powered-By': 'AT-5000', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ90a8959e599ce21ffadfa22d5bd876d5', 'Twilio-Request-Duration': '0.180', 'X-Home-Region': 'us1', 'X-Api-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Shenanigans': 'none', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 6f2f291762a32a9876c9d69d778cb280.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'GRU3-P4', 'X-Amz-Cf-Id': 'HN-a9PQzDNLEasJ40MjYotUEmVGgHQp21Try9YXN9DiNXzfI78I2Vg==', 'Vary': 'Origin'}
+2025-05-14 21:32:38,886 - SMS enviado: NO-Safety Vest detectado.
+2025-05-14 21:32:39,561 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-14 21:32:40,153 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-14 21:32:40,750 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-14 21:32:42,107 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-14 21:32:42,107 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-14 21:32:42,107 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-14 21:32:42,789 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-14 21:32:42,790 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-14 21:32:43,637 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-14 21:32:43,637 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-14 21:32:43,637 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-14 21:32:43,637 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-14 21:32:44,200 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-14 21:32:44,200 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-14 21:32:44,200 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-14 21:32:44,200 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-14 21:32:44,200 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-14 21:32:44,849 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-14 21:32:44,849 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-14 21:32:44,849 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-14 21:32:44,849 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-14 21:32:45,413 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-14 21:32:45,413 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-14 21:32:45,413 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-14 21:32:45,414 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-14 21:32:46,009 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-14 21:32:46,010 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-14 21:32:46,010 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-14 21:32:46,010 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-14 21:32:46,549 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-14 21:32:46,549 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-14 21:32:46,550 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-14 21:32:46,550 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-14 21:32:46,550 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-14 21:32:46,550 - Alerta NO-Hardhat detectado, mas SMS não enviado (anti-spam).
+2025-05-14 22:42:21,128 - -- BEGIN Twilio API Request --
+2025-05-14 22:42:21,128 - POST Request: https://api.twilio.com/2010-04-01/Accounts/ACbb50fb5313c67c2873bf2ad59b682175/Messages.json
+2025-05-14 22:42:21,129 - Headers:
+2025-05-14 22:42:21,129 - Content-Type : application/x-www-form-urlencoded
+2025-05-14 22:42:21,129 - Accept : application/json
+2025-05-14 22:42:21,129 - User-Agent : twilio-python/9.5.2 (Windows AMD64) Python/3.11.9
+2025-05-14 22:42:21,129 - X-Twilio-Client : python-9.5.2
+2025-05-14 22:42:21,129 - Accept-Charset : utf-8
+2025-05-14 22:42:21,129 - -- END Twilio API Request --
+2025-05-14 22:42:22,355 - Response Status Code: 201
+2025-05-14 22:42:22,355 - Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '850', 'Connection': 'keep-alive', 'Date': 'Thu, 15 May 2025 01:42:29 GMT', 'X-Powered-By': 'AT-5000', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ22e745a1d0b76a4499caaab5392fb259', 'Twilio-Request-Duration': '0.172', 'X-Home-Region': 'us1', 'X-Api-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Shenanigans': 'none', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 f5002d75963a7ac4e40089e827005b00.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'GRU3-P4', 'X-Amz-Cf-Id': '6t0pPS2BWBW6P2V1o0xdiUDcXBIXcZmotfOEv_sts_tKO_egDAq4ew==', 'Vary': 'Origin'}
+2025-05-14 22:42:22,355 - SMS enviado: NO-Safety Vest detectado.
+2025-05-14 22:42:23,087 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-14 22:42:23,730 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-14 22:42:24,409 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-14 22:42:25,909 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-14 22:42:25,909 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-14 22:42:25,909 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-14 22:42:26,811 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-14 22:42:26,811 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-14 22:42:27,656 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-14 22:42:27,656 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-14 22:42:27,656 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-14 22:42:27,657 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-14 22:42:28,378 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-14 22:42:28,379 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-14 22:42:28,379 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-14 22:42:28,379 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-14 22:42:28,379 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-14 22:42:29,089 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-14 22:42:29,089 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-14 22:42:29,089 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-14 22:42:29,089 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-14 22:42:29,753 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-14 22:42:29,753 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-14 22:42:29,753 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-14 22:42:29,754 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-14 22:42:30,430 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-14 22:42:30,431 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-14 22:42:30,431 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-14 22:42:30,431 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-14 22:42:31,067 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-14 22:42:31,067 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-14 22:42:31,068 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-14 22:42:31,068 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-14 22:42:31,068 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-14 22:42:31,068 - Alerta NO-Hardhat detectado, mas SMS não enviado (anti-spam).
+2025-05-14 22:42:31,764 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-14 22:42:31,764 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-14 22:42:31,764 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-14 22:42:31,764 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-14 22:42:31,764 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-14 22:42:32,603 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-14 22:42:32,604 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-14 22:42:32,604 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-14 22:42:32,604 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-14 22:42:33,410 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-14 22:42:33,410 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-14 22:42:33,411 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-14 22:42:34,339 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-14 22:42:34,339 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-14 22:42:34,339 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-14 22:42:35,188 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-14 22:42:35,188 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-14 22:42:35,188 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-14 22:42:35,987 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-14 22:42:35,987 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-14 22:42:36,954 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-14 22:42:36,954 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-14 22:42:37,787 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).
+2025-05-14 22:42:37,788 - Alerta NO-Safety Vest detectado, mas SMS não enviado (anti-spam).

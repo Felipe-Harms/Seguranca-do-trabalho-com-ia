@@ -10,7 +10,7 @@ app = FastAPI()
 streams: List[Stream] = []
 alerts: List[Alert] = []
 next_stream_id = 0
-next_alert_id = 0 
+next_alert_id = 0
 
 """
 POST /streams - criar uma nova stream

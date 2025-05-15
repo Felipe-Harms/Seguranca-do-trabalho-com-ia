@@ -3,6 +3,10 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+#outros 
+src.zip
+utils.zip
+main-bkp.py
 # C extensions
 *.so
 

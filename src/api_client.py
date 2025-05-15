@@ -31,3 +31,7 @@ def send_alert(stream_id: int, class_name: str, alert_type: str, timestamp: str)
 
 #send_alert(0, "NO-Hardhat", "safety_violation", "2025-05-12T22:55:00")
 
+def list_streams () -> list [dict]:
+    response = requests.get(f"{BASE_URL}/streams")
+    response.raise_for_status()
+    return response.json()

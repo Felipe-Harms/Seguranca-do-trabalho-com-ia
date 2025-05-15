@@ -1,0 +1,5 @@
+[
+{"name": "Câmera 0", "source":"data/video3.mp4"},
+{"name": "Câmera 1", "source":"rtsp://192.168.0.10/stream1"},
+{"name": "Câmera 2", "source":"rtsp://192.168.0.10/stream2"}
+]
