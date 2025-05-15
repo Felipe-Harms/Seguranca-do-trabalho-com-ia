@@ -20,3 +20,12 @@ Este projeto usa visão computacional e IA para identificar EPIs e detectar risc
 2. Baixe o modelo treinado (.pt)
 3. rode o uvicorn api:app --reload  na pasta onde está o api.py 
 4. Rode `main.py`
+
+## Licença
+
+Este projeto está licenciado sob uma Licença de Uso Não Comercial.
+
+Você pode usar, modificar e distribuir este software **somente para fins não comerciais**.  
+O uso comercial é **estritamente proibido** sem permissão expressa do autor.
+
+Consulte o arquivo [LICENSE](./LICENSE) para mais detalhes.
