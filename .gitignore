@@ -7,6 +7,8 @@ __pycache__/
 src.zip
 utils.zip
 main-bkp.py
+detections.lo
+
 # C extensions
 *.so
 
