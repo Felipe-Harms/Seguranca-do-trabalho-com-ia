@@ -10,7 +10,7 @@ def run_inference(frame,model,conf_treshold=0.60,relevant_classes=None):
         relevant_classes = ['Hardhat','Mask','NO-Hardhat','NO-Mask','NO-Safety Vest','Person','Safety Cone','Safety Vest','machinery','vehicle']
 
     #faz a inferência no frame
-    results = model(frame, imgsz =2464, conf = conf_treshold)[0]
+    results = model.predict(frame, imgsz=2464, conf=conf_treshold)[0]
 
     #lista para armazenar as detecções relevantes
     detect_boxes = []

@@ -1,6 +1,10 @@
 from fastapi import FastAPI, HTTPException
 from typing import List
-from api_models import Stream, Alert
+from src.api_models import Stream, Alert
+import sys
+import os
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
+
 
 #para realizar os testes, utilizar cd "C:\Users\focal\OneDrive\Área de Trabalho\VCST\src"
 #e depois uvicorn api:app --reload  

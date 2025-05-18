@@ -58,16 +58,16 @@ def process_stream(source: str, stream_id: int, stream_name: str, stop_event):
 
             # Exibição
             annotated = draw_boxes(processed.copy(), boxes, model)
-            cv2.imshow(f"PPE - {stream_name}", annotated)
+            #cv2.imshow(f"PPE - {stream_name}", annotated)
 
         # Tecla 'q' encerra o vídeo
 
         if stop_event.is_set():
             break
 
-        if cv2.waitKey(1) & 0xFF == ord('q'):
-            stop_event.set()
-            break
+        #if cv2.waitKey(1) & 0xFF == ord('q'):
+        #    stop_event.set()
+         #   break
 
     cap.release()
     cv2.destroyWindow(f"PPE - {stream_name}")

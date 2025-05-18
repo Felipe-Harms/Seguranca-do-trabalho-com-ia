@@ -5,6 +5,11 @@ from requests.exceptions import RequestException
 from utils.process_stream import process_stream
 from src.api_client import register_stream, send_alert,list_streams
 from ultralytics import YOLO
+import sys
+import sys
+import os
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
+
 
 # Configurações
 stop_event = threading.Event()
@@ -15,16 +20,6 @@ img_size = 1280         # Aumenta o tamanho da imagem para melhor qualidade
 conf_threshold = 0.60   # Confiança mínima para a detecção
 sms_interval = 30       # Intervalo entre o envio de SMS (em segundos)  
 
-"""
-#adcionar stream(origem do video)
-try:
-    stream_info = register_stream(name="Câmera Principal", source=video_path)
-    stream_id = stream_info["id"]
-    print(f"Stream registrada com ID {stream_id}")
-except RequestException as e:
-    print("Erro ao registrar a stream na API:", e)
-    exit(1)
-"""
 
 #lista de streams
 registered_streams = []
@@ -42,9 +37,13 @@ while True:
     stream_source = input("  • Digite a URL ou caminho da stream: ").strip()
 
     #chamar register_stream e guarda
-    info = register_stream(name=stream_name, source=stream_source)
-    registered_streams.append(info)
-    print(f" -> '{info['name']}' cadastrada com ID {info['id']}")
+    try:
+        info = register_stream(name=stream_name, source=stream_source)
+        print("RESPOSTA DA API:", info)
+        registered_streams.append(info)
+        print(f" -> '{info['name']}' cadastrada com ID {info['id']}")
+    except Exception as e:
+        print("Erro ao registrar a stream:", e)
 
 #lista stream ja existentes
 
