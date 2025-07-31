@@ -2,27 +2,34 @@ import cv2
 from time import time
 from datetime import datetime
 import logging
+import os
 from requests.exceptions import RequestException
-from utils.notifier import send_sms  # Importando a função de envio de SMS
 from utils.video_tools import preprocess_frame  # Função de pré-processamento
 from utils.infer import run_inference, draw_boxes  # Função de inferência
-from src.api_client import register_stream, send_alert,list_streams
+from src.api_client import register_stream, send_alert, list_streams
 from ultralytics import YOLO
 
-#configurações(ainda não descobri onde esses precisam estar)
-inference_interval = 1  # Inferência a cada frame (ou de outro modo)
-img_size = 1280         # Aumenta o tamanho da imagem para melhor qualidade
-conf_threshold = 0.60   # Confiança mínima para a detecção
-sms_interval = 30       # Intervalo entre o envio de SMS (em segundos)  
-model_path = "models\\best.pt"
-model = YOLO(model_path, task="segment")
-relevant_classes = ['Hardhat','Mask','NO-Hardhat','NO-Mask','NO-Safety Vest','Person','Safety Cone','Safety Vest','machinery','vehicle']
-missing_ppe = ['NO-Hardhat','NO-Mask','NO-Safety Vest']
+# Configurações
+inference_interval = 1      # Inferência a cada frame
+img_size = 1280             # Aumenta o tamanho da imagem para melhor qualidade
+conf_threshold = 0.60       # Confiança mínima para a detecção
+save_interval = 15          # Intervalo periódico de salvamento de frames
+save_frames = False         # True para salvar frames / False para nao salvar
+model_path = "models\\\\best.pt"
 
+# Carrega o modelo YOLOv8 em modo segmentação
+model = YOLO(model_path, task="segment")
+
+# Classes relevantes e classes de violação
+relevant_classes = [
+    'Hardhat', 'Mask', 'NO-Hardhat', 'NO-Mask', 'NO-Safety Vest',
+    'Person', 'Safety Cone', 'Safety Vest', 'machinery', 'vehicle'
+]
+missing_ppe = ['NO-Hardhat', 'NO-Mask', 'NO-Safety Vest']
 
 
 def process_stream(source: str, stream_id: int, stream_name: str, stop_event):
-
+    # Abre o stream de vídeo
     cap = cv2.VideoCapture(source)
     if not cap.isOpened():
         print(f"Erro: não foi possível abrir a câmera '{stream_name}' ({source})")
@@ -30,6 +37,7 @@ def process_stream(source: str, stream_id: int, stream_name: str, stop_event):
 
     frame_count = 0
     last_sms_time = 0
+    violation_active = False  # Flag para primeiro frame de cada evento de violação
 
     while True:
         ret, frame = cap.read()
@@ -37,37 +45,56 @@ def process_stream(source: str, stream_id: int, stream_name: str, stop_event):
             print(f"Stream '{stream_name}' finalizada ou erro ao capturar frame.")
             break
 
-        # Pré-processamento
+        # Pré-processamento do frame
         processed = preprocess_frame(frame)
-
         frame_count += 1
+
+        # Realiza inferência em intervalos definidos
         if frame_count % inference_interval == 0:
-            # Inferência
             boxes = run_inference(processed, model, conf_threshold, relevant_classes)
 
-            # Alertas para infrações
+            # Verifica infrações e envia alertas
             current_time = time()
+            current_violation = False
             for box in boxes:
                 class_name = model.names[int(box.cls)]
-                if class_name in missing_ppe and (current_time - last_sms_time) >= sms_interval:
-                    timestamp = datetime.now().isoformat()
-                    send_alert(stream_id, class_name, "safety_violation", timestamp)
-                    send_sms(f"⚠️ Alerta [{stream_name}]: {class_name} detectado!")
-                    last_sms_time = current_time
-                    logging.info(f"SMS enviado para {stream_name}: {class_name}")
+                # Se violação e passou o intervalo de SMS
+                if class_name in missing_ppe :
+                    logging.info(f"Detecção de violação em {stream_name}: {class_name}")
+                # Marca que há violação em algum box
+                if class_name in missing_ppe:
+                    current_violation = True
 
-            # Exibição
+            # Desenha bounding boxes e monta nome do arquivo
             annotated = draw_boxes(processed.copy(), boxes, model)
-            #cv2.imshow(f"PPE - {stream_name}", annotated)
+            timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+            filename = f"frame_{stream_id}_{timestamp}.jpg"
 
-        # Tecla 'q' encerra o vídeo
+            # Decide se deve salvar o frame
+            save_event = False
+            # Salva o primeiro frame de cada evento de violação
+            if current_violation and not violation_active:
+                save_event = True
+            # Salva periodicamente mesmo sem violação
+            elif frame_count % save_interval == 0:
+                save_event = True
 
+            if save_frames and save_event :
+                # Cria pasta para o stream, se não existir
+                output_dir = os.path.join("frames_anotados", str(stream_id))
+                os.makedirs(output_dir, exist_ok=True)
+                output_path = os.path.join(output_dir, filename)
+
+                # Salva frame anotado e registra log
+                cv2.imwrite(output_path, annotated)
+                logging.info(f"Frame salvo em {output_path}")
+
+                # Atualiza flag de violação
+                violation_active = current_violation
+
+        # Permite parada externa do loop
         if stop_event.is_set():
             break
 
-        #if cv2.waitKey(1) & 0xFF == ord('q'):
-        #    stop_event.set()
-         #   break
-
     cap.release()
-    cv2.destroyWindow(f"PPE - {stream_name}")
+   #cv2.destroyAllWindows() -não está sendo usado pois não é uma vesão com suporte para GUI

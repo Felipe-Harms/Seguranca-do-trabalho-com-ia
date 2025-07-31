@@ -15,10 +15,9 @@ sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 stop_event = threading.Event()
 model_path = "models\\best.pt"
 video_path = "data\\video3.mp4"
-inference_interval = 1  # Inferência a cada frame (ou de outro modo)
+inference_interval = 4  # Inferência a cada frame (ou de outro modo)
 img_size = 1280         # Aumenta o tamanho da imagem para melhor qualidade
 conf_threshold = 0.60   # Confiança mínima para a detecção
-sms_interval = 30       # Intervalo entre o envio de SMS (em segundos)  
 
 
 #lista de streams
