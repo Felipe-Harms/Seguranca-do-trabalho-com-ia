@@ -4,6 +4,7 @@ from datetime import datetime
 import logging
 import os
 from requests.exceptions import RequestException
+from src.api_client import send_alert
 from utils.video_tools import preprocess_frame  # Função de pré-processamento
 from utils.infer import run_inference, draw_boxes  # Função de inferência
 from src.api_client import register_stream, send_alert, list_streams
@@ -15,6 +16,7 @@ img_size = 1280             # Aumenta o tamanho da imagem para melhor qualidade
 conf_threshold = 0.60       # Confiança mínima para a detecção
 save_interval = 15          # Intervalo periódico de salvamento de frames
 save_frames = False         # True para salvar frames / False para nao salvar
+alert_interval = 30
 model_path = "models\\\\best.pt"
 
 # Carrega o modelo YOLOv8 em modo segmentação
@@ -36,7 +38,7 @@ def process_stream(source: str, stream_id: int, stream_name: str, stop_event):
         return
 
     frame_count = 0
-    last_sms_time = 0
+    last_alert_time = 0
     violation_active = False  # Flag para primeiro frame de cada evento de violação
 
     while True:
@@ -54,13 +56,17 @@ def process_stream(source: str, stream_id: int, stream_name: str, stop_event):
             boxes = run_inference(processed, model, conf_threshold, relevant_classes)
 
             # Verifica infrações e envia alertas
+            alert_sent = False
             current_time = time()
             current_violation = False
             for box in boxes:
                 class_name = model.names[int(box.cls)]
                 # Se violação e passou o intervalo de SMS
-                if class_name in missing_ppe :
-                    logging.info(f"Detecção de violação em {stream_name}: {class_name}")
+                if (class_name in missing_ppe and not alert_sent and (last_alert_time == 0 or (current_time - last_alert_time) >= alert_interval)):
+                    ts = datetime.now().isoformat()
+                    send_alert(stream_id,class_name , "safety_violation", ts)
+                    last_alert_time = current_time
+                    logging.info(f"[API] Alerta enviado para stream {stream_id} às {ts}")
                 # Marca que há violação em algum box
                 if class_name in missing_ppe:
                     current_violation = True
